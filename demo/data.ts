@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 import type { ISchemaDTO, IPriceListDTO } from '../src';
 import { venues } from './venues';
 

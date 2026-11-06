@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 import type { MapOutline, Point, RendererTheme } from './types.js';
 
 export class OutlineLayer {

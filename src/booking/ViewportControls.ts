@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 import { SectionControls } from './SectionControls.js';
 import { UnsupportedFeatureError } from './settings.js';
 import type { IPoint } from './settings.js';

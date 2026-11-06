@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 import type { IPriceDTO } from './api-types.js';
 import type { IColoredPrice } from './settings.js';
 

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 import type { Bounds, MapOutline, Point } from '../types.js';
 import type { ISector, ISeat } from './models.js';
 

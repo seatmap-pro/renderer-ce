@@ -1,5 +1,6 @@
+// SPDX-License-Identifier: MPL-2.0
 export { SeatmapBookingRenderer } from './SeatmapBookingRenderer.js';
-export const VERSION = '0.1.1';
+export const VERSION = '0.2.0';
 export type { IPoint } from './booking/settings.js';
 export type {
   IBookingRendererSettings,

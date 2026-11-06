@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 import type { MapOutline } from './types.js';
 import type { SeatmapData } from './types.js';
 import { validateBackground, validateOutlines } from './layerData.js';

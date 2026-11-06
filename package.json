@@ -1,8 +1,8 @@
 {
   "name": "@seatmap.pro/renderer-ce",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Open-source Canvas 2D seating charts with a lightweight booking selection client",
-  "license": "MIT",
+  "license": "MPL-2.0",
   "type": "module",
   "packageManager": "yarn@4.13.0",
   "engines": {
@@ -38,7 +38,11 @@
   },
   "files": [
     "dist",
+    "src",
+    "!src/**/*.test.ts",
     "LICENSE",
+    "LICENSE-MIT",
+    "LICENSING.md",
     "README.md",
     "THIRD_PARTY_NOTICES.md"
   ],

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 import { seatStyle } from './seatStyles.js';
 import type {
   DataManager as DataManagerContract,
@@ -22,7 +23,7 @@ import type {
 } from './models.js';
 
 export class SeatmapBookingRenderer extends ViewportControls implements IRenderer {
-  static readonly VERSION = '0.1.1';
+  static readonly VERSION = '0.2.0';
   private api: BookingApiClient;
   private request?: AbortController;
   private dataManager: DataManager;

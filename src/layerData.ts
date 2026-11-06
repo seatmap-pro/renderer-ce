@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 import type { MapOutline, SvgBackground } from './types.js';
 
 function object(value: unknown): asserts value is Record<string, unknown> {

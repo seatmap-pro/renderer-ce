@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 import type { Viewport } from './geometry.js';
 import type { Point } from './types.js';
 import { HoverThrottle } from './HoverThrottle.js';

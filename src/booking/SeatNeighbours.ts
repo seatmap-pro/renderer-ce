@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 import type { ICartChangeResult, ISeat } from './models.js';
 
 type Adjacent = Map<number, number[]>;
