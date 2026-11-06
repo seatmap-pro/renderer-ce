@@ -6,6 +6,12 @@ MIT licensed, TypeScript, Canvas 2D and KDBush 4.0.2. The primary entry point is
 
 [Open the Barclays Center demo (19,608 seats)](https://seatmap-pro.github.io/renderer-ce/?venue=barclays)
 
+## Choose CE or Seatmap.pro
+
+Use CE with your own venue data and booking backend. Seatmap.pro offers a visual venue editor, a WebGL renderer, the Booking API, and commercial integration support.
+
+[Compare paid options](https://seatmap.pro/pricing/?utm_source=github&utm_medium=referral&utm_campaign=renderer-ce&utm_content=readme-pricing) · [Request a demo](https://seatmap.pro/demo/?utm_source=github&utm_medium=referral&utm_campaign=renderer-ce&utm_content=readme-demo)
+
 ## Installation
 
 ```sh
@@ -106,7 +112,7 @@ Migration is checked against the main renderer source including the shared `load
 | DataManager                        | Cached seat/section metadata, invalidation, refresh and event subscriptions                          |
 | Seat styles and `onBeforeSeatDraw` | Color, size, stroke, label font, shadow, tint and interaction blocking                               |
 
-CE excludes 3D, rotation, animation sequences, marker APIs, minimap, StateManager, group selection, custom hotkeys, image seat styles, custom HTML rendering and commercial visibility strategies. These are absent from the public declarations and runtime facade. Unsupported constructor settings throw instead of being silently ignored. Canvas outlines expose metadata rather than a `getSectionOutlineElements()` DOM API.
+The supported public CE API excludes 3D, rotation, animation sequences, marker APIs, minimap, StateManager, group selection, custom hotkeys, image seat styles, custom HTML rendering and commercial visibility strategies. These are absent from the public declarations and runtime facade; some have internal implementations in this repository. Unsupported constructor settings throw instead of being silently ignored. Canvas outlines expose metadata rather than a `getSectionOutlineElements()` DOM API.
 
 `onSchemaDataLoaded` runs before prices are installed. `initCart` restores held seats, including seats absent from availability or selections beyond the interactive limit; orphan warnings do not block restoration. The rendering engines, generated outline geometry and visual defaults may differ. Compatibility covers public application calls and data contracts, not internal objects, DOM selectors, deep imports or identical pixels. `VERSION` and `getVersion()` identify the installed package.
 
