@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 import { priceLegend } from './price-colors.js';
 import { BookingClient } from '../BookingClient.js';
 import type { SeatmapRenderer } from '../SeatmapRenderer.js';

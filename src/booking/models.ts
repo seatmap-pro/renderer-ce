@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 import type { ISpecialState, IBaseSeat, IBaseSector, ISectionPhoto } from './api-types.js';
 import type { IPoint, HotkeysSetting, OutlineSource, Context } from './settings.js';
 export type Nullable<T> = T | null | undefined;

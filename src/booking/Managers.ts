@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 import { MetadataCache } from './MetadataCache.js';
 import type { ISeatMetadata, ISectionMetadata, IEntityStates } from './models.js';
 

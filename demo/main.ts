@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 import { SeatmapBookingRenderer } from '../src';
 import type { ICart, ISeat, IExtendedSeat } from '../src';
 import { descriptions, venueData } from './data';

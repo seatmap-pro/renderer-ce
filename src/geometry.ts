@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 import KDBush from 'kdbush';
 import type { Bounds, Point, Seat, SeatmapData } from './types.js';
 

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 import { SeatNeighbours } from './SeatNeighbours.js';
 import { RendererState } from './RendererState.js';
 import type {

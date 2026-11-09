@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 import type { IRendererSettings, ISeat, ISector, ICart } from './models.js';
 import type { IPriceDTO, IRowDTO } from './api-types.js';
 
