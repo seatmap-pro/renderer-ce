@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   check:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -20,12 +20,7 @@ jobs:
       - run: yarn install --immutable
       - run: yarn type-check && yarn lint && yarn format:check && yarn test
       - run: yarn build && yarn build:demo
-      - name: Install Chromium and system dependencies
-        run: |
-          if [ -f /etc/apt/apt-mirrors.txt ]; then
-            sudo sed -i 's|https\?://azure\.archive\.ubuntu\.com/ubuntu|https://archive.ubuntu.com/ubuntu|g' /etc/apt/apt-mirrors.txt
-          fi
-          yarn playwright install --with-deps chromium
+      - run: yarn playwright install chromium
       - run: yarn test:e2e
         env:
           RENDERER_CE_ARTIFACTS: test-results
