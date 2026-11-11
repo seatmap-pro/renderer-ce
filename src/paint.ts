@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 import { paintSeat, resolveSeatStyle } from './seatPaint.js';
 import type { ISeatStyle, SeatInteractionState } from './booking/models.js';
 import type { BookingClient } from './BookingClient.js';

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 export type SeatId = string | number;
 export type SeatStatus = 'available' | 'unavailable';
 

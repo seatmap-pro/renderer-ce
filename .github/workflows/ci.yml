@@ -25,3 +25,4 @@ jobs:
         env:
           RENDERER_CE_ARTIFACTS: test-results
       - run: yarn pack --out /tmp/renderer-ce.tgz
+      - run: node tools/check-package.mjs /tmp/renderer-ce.tgz

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 import type { ISeatDTO, ISectorDTO } from './api-types.js';
 import type {
   ICart,

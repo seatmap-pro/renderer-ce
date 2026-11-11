@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 import { Viewport } from './geometry.js';
 import { paint } from './paint.js';
 import type { PaintOptions } from './paint.js';

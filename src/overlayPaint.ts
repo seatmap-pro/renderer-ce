@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 import { paint } from './paint.js';
 import type { PaintOptions } from './paint.js';
 import { showsSeatName } from './seatPaint.js';

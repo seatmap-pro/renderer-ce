@@ -6,4 +6,10 @@ Keep the renderer independent of frameworks, backend services, and other Seatmap
 
 Add tests for behaviour changes. Run type checking, lint, formatting, unit tests, library build, and browser tests as listed in the README. Browser tests exercise the built demo, including keyboard navigation, pointer input, selection limits, export, and responsive layout.
 
-Do not include credentials, real attendee data, generated bundles, or dependency directories in a contribution. Synthetic venue examples belong in `demo/venues.ts`.
+Use public CE sources and synthetic fixtures when working with external AI tools; review their output before publishing it. Code hidden from the public API is still public source.
+
+Contributions to project-authored code use MPL 2.0. Keep SPDX headers and existing copyright and third-party notices. Before the first MPL release, confirm the rights to relicense existing contributions. Previous MIT releases remain available under MIT.
+
+Before the first public push, check new code and assets for publication rights, credentials, and customer data. A draft PR or public branch already exposes its commits. Copies from private Seatmap.pro code, customer schemas, or support exports need explicit authorization for public release. Synthetic venue examples belong in `demo/venues.ts`; other maps and artwork need a documented source and permission to redistribute.
+
+Keep private product implementations and deployment files out of CE. Do not include credentials, real attendee data, generated bundles, or dependency directories. Before a release, review the source diff and the contents of both the npm archive and the deployed demo. The package's `files` list limits npm contents; it does not limit what is public in Git. Report suspected leaks privately to hello@seatmap.pro without copying sensitive material into a public issue. Revoke exposed credentials; deleting a file does not revoke them.

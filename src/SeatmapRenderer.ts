@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 import type { BookingClient } from './BookingClient.js';
 import { getBounds, SeatIndex, Viewport } from './geometry.js';
 import { bindInteractions } from './interactions.js';

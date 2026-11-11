@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 import type { ISectorDTO } from './api-types.js';
 import { CartControls } from './CartControls.js';
 import type { ISeat, ISector, IExtendedSeat } from './models.js';

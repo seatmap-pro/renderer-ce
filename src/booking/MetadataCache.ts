@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 export class MetadataCache<T extends { id: number }> {
   private values = new Map<number, T>();
   private allDirty = true;

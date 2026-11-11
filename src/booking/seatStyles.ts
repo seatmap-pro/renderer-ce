@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 import type { Context } from './settings.js';
 import type { ISeat, ISeatStyle, IRendererSettings, SeatInteractionState } from './models.js';
 

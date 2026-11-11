@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 import type { Category, MapLabel, Seat, SeatmapData } from '../src/types';
 import theatreSvg from './assets/meridian.svg?raw';
 import arenaSvgUrl from './assets/roundhouse.svg?url';

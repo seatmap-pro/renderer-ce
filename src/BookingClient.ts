@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 import { copyData } from './data.js';
 import type {
   BookingOptions,

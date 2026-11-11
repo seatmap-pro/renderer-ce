@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 import type { BackgroundStatus, Bounds, SvgBackground } from './types.js';
 
 export function normalizeSvg(source: string, bounds: Bounds): string {

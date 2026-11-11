@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 import type * as Models from './booking/models.js';
 import type { IBookingRendererSettings as Settings } from './booking/settings.js';
 import type { SeatmapBookingRenderer as Implementation } from './booking/SeatmapBookingRenderer.js';

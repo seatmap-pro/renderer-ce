@@ -1,4 +1,5 @@
 <!doctype html>
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,7 +7,7 @@
     <meta name="theme-color" content="#20241f" />
     <meta
       name="description"
-      content="Try renderer-ce, the MIT-licensed Canvas 2D seating chart renderer from Seatmap.pro. Select seats, explore venues, and build your own booking experience."
+      content="Try renderer-ce, the MPL-2.0 Canvas 2D seating chart renderer from Seatmap.pro. Select seats, explore venues, and build your own booking experience."
     />
     <title>renderer-ce — Open-source seat selection by Seatmap.pro</title>
     <link rel="icon" href="data:," />
@@ -36,7 +37,7 @@
             booking client, and the freedom to make it yours.
           </p>
           <div class="intro-facts">
-            <span>MIT licensed</span><span>TypeScript</span><span>Canvas 2D + KDBush</span>
+            <span>MPL 2.0</span><span>TypeScript</span><span>Canvas 2D + KDBush</span>
           </div>
         </div>
       </section>
@@ -152,8 +153,11 @@
             Load your schema and prices from JSON. Keep your own reservation and checkout flow. Move
             to the main renderer by changing one import.
           </p>
-          <a href="https://seatmap.pro/demo/" class="pro-link"
-            >Explore the Seatmap.pro platform <span aria-hidden="true">↗</span></a
+          <p>Seatmap.pro also offers a visual venue editor and commercial integration support.</p>
+          <a
+            href="https://seatmap.pro/demo/?utm_source=renderer-ce-demo&amp;utm_medium=referral&amp;utm_campaign=renderer-ce&amp;utm_content=quickstart"
+            class="pro-link"
+            >Request a Seatmap.pro demo <span aria-hidden="true">↗</span></a
           >
         </div>
         <div class="code-example">
@@ -183,7 +187,12 @@ await renderer.loadData(schema, prices);</code></pre>
     </a>
     <footer>
       <a class="brand" href="https://seatmap.pro">seatmap<span>.pro</span></a>
-      <p>renderer-ce · Made for builders. Shared with everyone.</p>
+      <p>
+        renderer-ce · <a href="./licenses/LICENSE">MPL 2.0</a> ·
+        <a href="%CE_SOURCE_URL%">Source</a> ·
+        <a href="./licenses/THIRD_PARTY_NOTICES.md">Notices</a> ·
+        <a href="./licenses/OFL.txt">Font license</a>
+      </p>
       <a href="https://seatmap.pro">Explore the platform <span aria-hidden="true">↗</span></a>
     </footer>
   </body>

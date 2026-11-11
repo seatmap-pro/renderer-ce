@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
 import type { IPriceId, Nullable } from './models.js';
 export interface IBaseSeat {
   id: number;
