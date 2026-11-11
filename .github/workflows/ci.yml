@@ -20,7 +20,12 @@ jobs:
       - run: yarn install --immutable
       - run: yarn type-check && yarn lint && yarn format:check && yarn test
       - run: yarn build && yarn build:demo
-      - run: yarn playwright install --with-deps chromium
+      - name: Install Chromium and system dependencies
+        run: |
+          if [ -f /etc/apt/apt-mirrors.txt ]; then
+            sudo sed -i 's|https\?://azure\.archive\.ubuntu\.com/ubuntu|https://archive.ubuntu.com/ubuntu|g' /etc/apt/apt-mirrors.txt
+          fi
+          yarn playwright install --with-deps chromium
       - run: yarn test:e2e
         env:
           RENDERER_CE_ARTIFACTS: test-results
